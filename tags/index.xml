@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on RhettTien</title>
+    <link>https://www.rhetttien.cn/tags/</link>
+    <description>Recent content in Tags on RhettTien</description>
+    <image>
+      <title>RhettTien</title>
+      <url>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2023 00:09:51 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://www.rhetttien.cn/tags/life/</link>
+      <pubDate>Tue, 01 Aug 2023 00:09:51 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.rhetttien.cn/tags/hugo/</link>
+      <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/tags/hugo/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://www.rhetttien.cn/tags/theme/</link>
+      <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/tags/theme/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>参考文档</title>
+      <link>https://www.rhetttien.cn/tags/%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/tags/%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

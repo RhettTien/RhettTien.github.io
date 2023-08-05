@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on RhettTien</title>
+    <link>https://www.rhetttien.cn/tags/hugo/</link>
+    <description>Recent content in Hugo on RhettTien</description>
+    <image>
+      <title>RhettTien</title>
+      <url>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2023 23:29:12 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo blog搭建踩坑录</title>
+      <link>https://www.rhetttien.cn/posts/blog/2sometrap/</link>
+      <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/2sometrap/</guid>
+      <description>Git 错误信息 解决git@github.com permission denied (publickey). fatal could not read from remote repository错误信息
+Git 提示Permission denied (publickey)
+主题加载问题 建议设置config.yml params: assets: disableFingerprinting: true 网页缓存导致，更换浏览器再次测试
+PaperMod-FAQs
+Hugo - Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource
+Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource in Blazor app</description>
+      <content:encoded><![CDATA[<h2 id="git-错误信息">Git 错误信息</h2>
+<ol>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/454666519">解决<code>git@github.com permission denied (publickey). fatal could not read from remote repository</code>错误信息</a></p>
+</li>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/281094708">Git 提示<code>Permission denied (publickey)</code></a></p>
+</li>
+</ol>
+<h2 id="主题加载问题">主题加载问题</h2>
+<ol>
+<li>建议设置<code>config.yml</code></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">assets</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">disableFingerprinting</span>: <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>网页缓存导致，更换浏览器再次测试</p>
+</li>
+<li>
+<p><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets">PaperMod-FAQs</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource">Hugo - Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/69926878/failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource-in-blazo">Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource in Blazor app</a></p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>部署Hugo参考的文档</title>
+      <link>https://www.rhetttien.cn/posts/blog/1buildblog/</link>
+      <pubDate>Sun, 30 Jul 2023 21:34:30 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/1buildblog/</guid>
+      <description>Windows安装Hugo (2021-09-07)
+使用Hugo生成静态博客并部署在GitHub上 (2021-08-08)
+Hugo + GitHub Action，搭建你的博客自动发布系统 (2022-05-30)
+使用 Hugo 发布文章 (2019-12-15)</description>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p><a href="https://cloud.tencent.com/developer/article/1873693">Windows安装Hugo</a> (2021-09-07)</p>
+</li>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/397612900">使用Hugo生成静态博客并部署在GitHub上</a> (2021-08-08)</p>
+</li>
+<li>
+<p><a href="https://client.sspai.com/post/73512#!">Hugo + GitHub Action，搭建你的博客自动发布系统</a> (2022-05-30)</p>
+</li>
+<li>
+<p><a href="https://tangzixiang.github.io/posts/2019/%E4%BD%BF%E7%94%A8-hugo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/">使用 Hugo 发布文章</a> (2019-12-15)</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
