@@ -11,7 +11,113 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Aug 2023 00:09:51 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 23:43:51 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>找书不求人</title>
+      <link>https://www.rhetttien.cn/posts/blog/3findbooksanywhere/</link>
+      <pubDate>Wed, 30 Aug 2023 23:43:51 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/3findbooksanywhere/</guid>
+      <description>电子书下载站点汇总</description>
+      <content:encoded><![CDATA[<h2 id="1豆瓣网资源脚本">1.豆瓣网资源脚本</h2>
+<p>脚本安装地址：<a href="https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener">豆瓣资源下载大师</a>
+</p>
+<p>效果图：</p>
+<p><img loading="lazy" src="/img/doubanjiaoben.png" alt="doubanjiaoben"  />
+</p>
+<h2 id="2国内站">2.国内站</h2>
+<h3 id="21下载">2.1下载</h3>
+<p><a href="https://yabook.org/" target="_blank" rel="noopener">雅书</a>
+ PDF电子书</p>
+<p><a href="https://findbooks.eu.org/" target="_blank" rel="noopener">找书网</a>
+ 聚合搜索下载</p>
+<p><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">鸠摩搜书</a>
+ 可以检索到网盘分享链接</p>
+<p><a href="https://bks.thefuture.top/" target="_blank" rel="noopener">The Future</a>
+ 聚合搜索下载</p>
+<p><a href="http://www.banshujiang.cn/" target="_blank" rel="noopener">搬书匠</a>
+ 计算机电子书</p>
+<p><a href="https://www.nmod.net/" target="_blank" rel="noopener">NMOD电子书</a>
+</p>
+<p><a href="https://haodoo.net/" target="_blank" rel="noopener">好读</a>
+</p>
+<p><a href="https://freembook.com/" target="_blank" rel="noopener">free book</a>
+ 聚合搜索下载，需要借助浏览器脚本</p>
+<p><a href="http://www.dzkbw.com/" target="_blank" rel="noopener">电子课本网</a>
+ 小初高教材下载</p>
+<p><a href="http://www.tushu007.com/" target="_blank" rel="noopener">第一图书网</a>
+ 电子书</p>
+<p><a href="https://www.tjxz.cc/tag/books" target="_blank" rel="noopener">田间小站</a>
+ 电子书、外刊</p>
+<h3 id="22馆藏查阅">2.2馆藏查阅</h3>
+<p><a href="http://www.ucdrs.superlib.net/" target="_blank" rel="noopener">全国图书馆参考联盟</a>
+ 可以索引到到你所在大学或城市图书馆，也可索引到超星学习通查阅</p>
+<h3 id="23在线阅读">2.3在线阅读</h3>
+<p><a href="https://ctext.org/zh" target="_blank" rel="noopener">中國哲學書電子化計劃</a>
+ 繁体中文古籍在线</p>
+<p><a href="https://www.tianshuge.com/" target="_blank" rel="noopener">天书阁</a>
+ 古籍在线</p>
+<p><a href="https://www.gushiwen.cn/" target="_blank" rel="noopener">古诗文网</a>
+ 古诗、古籍在线</p>
+<p><a href="http://novel.tingroom.com/" target="_blank" rel="noopener">英语小说网</a>
+ 双语在线阅读</p>
+<h3 id="24在线商城">2.4在线商城</h3>
+<p><a href="http://www.bookschina.com/" target="_blank" rel="noopener">中图网</a>
+</p>
+<p><a href="https://www.duozhuayu.com/book" target="_blank" rel="noopener">多抓鱼</a>
+ 买卖靠谱正品二手书</p>
+<p><a href="https://www.kongfz.com/" target="_blank" rel="noopener">孔夫子旧书</a>
+ 各种旧书，绝版书</p>
+<h3 id="25城市图书馆">2.5城市图书馆</h3>
+<p>城市公共图书馆</p>
+<h2 id="3国外站">3.国外站</h2>
+<p><a href="https://zh.zlibrary-sg.se/" target="_blank" rel="noopener">z-library</a>
+ 中文英文，经历过FBI关停的那个，唯一官网，其余均为克隆站点。需要魔法上网，可以试试在 Tor Browser 打开，可能会有意外效果加成</p>
+<p><a href="https://libgen.is/" target="_blank" rel="noopener">Library Genesis</a>
+ 中英文电子书，使用体验仅次于 Z-lib</p>
+<p><a href="https://www.gutenberg.org/" target="_blank" rel="noopener">古登堡</a>
+ 外语电子书</p>
+<p><a href="https://libcats.org/" target="_blank" rel="noopener">libcats</a>
+ 外语电子书，毛子的网站，装修风格像Z-lib</p>
+<p><a href="https://www.pdfdrive.com/" target="_blank" rel="noopener">PDF Drive</a>
+ PDF电子书，包含中英文</p>
+<p><a href="https://epdf.tips/" target="_blank" rel="noopener">e PDF</a>
+ 外语电子书</p>
+<p><a href="https://openlibrary.org/" target="_blank" rel="noopener">open library</a>
+ 借阅制在线阅读，外语电子书</p>
+<p><a href="https://foxgreat.com/" target="_blank" rel="noopener">Fox Great</a>
+ 计算机类外语电子书</p>
+<p><a href="https://bookdash.org/" target="_blank" rel="noopener">book dash</a>
+ 外语童书</p>
+<h2 id="4外语有声书">4.外语有声书</h2>
+<p><a href="https://audiobookbay.is/" target="_blank" rel="noopener">ABB</a>
+ AudioBook Bay</p>
+<p><a href="http://www.audiobooktreasury.com/free-audiobooks/" target="_blank" rel="noopener">Audio Book Treasury</a>
+</p>
+<p><a href="http://www.loyalbooks.com/" target="_blank" rel="noopener">Loyal Books</a>
+</p>
+<p><a href="https://librivox.org/" target="_blank" rel="noopener">LibriVox</a>
+ 外语有声书、电子书</p>
+<p><a href="https://www.moxon.net/ebooks/audiobooks.html" target="_blank" rel="noopener">Free Audiobooks</a>
+</p>
+<p><a href="http://www.loudlit.org/collection.htm" target="_blank" rel="noopener">LoudLit</a>
+</p>
+<p><a href="http://www.itsfreedownloads.com/free-itunes-audiobooks/" target="_blank" rel="noopener">Free Audio Books</a>
+</p>
+<p><a href="https://FreeClassicAudioBooks.com" target="_blank" rel="noopener">FreeClassicAudioBooks</a>
+</p>
+<p><a href="https://freeeslmaterials.com/sean_banville_lessons.html" target="_blank" rel="noopener">Free ESL MATERIALS</a>
+</p>
+<h2 id="5私人博客">5.私人博客</h2>
+<p><a href="https://salttiger.com/" target="_blank" rel="noopener">SaltTiger</a>
+ 程序员书籍</p>
+<p><a href="https://github.com/justjavac/free-programming-books-zh_CN" target="_blank" rel="noopener">Github 中文编程图书索引</a>
+</p>
+<p><a href="https://github.com/programthink/books" target="_blank" rel="noopener">Github 个人电子书库</a>
+</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>test</title>
       <link>https://www.rhetttien.cn/posts/life/1test/</link>
@@ -67,19 +173,17 @@
       <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/2sometrap/</guid>
-      <description>Git 错误信息 解决git@github.com permission denied (publickey). fatal could not read from remote repository错误信息
-Git 提示Permission denied (publickey)
-主题加载问题 建议设置config.yml params: assets: disableFingerprinting: true 网页缓存导致，更换浏览器再次测试
-PaperMod-FAQs
-Hugo - Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource
-Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource in Blazor app</description>
+      <description>Git 错误信息 解决git@github.com permission denied (publickey). fatal could not read from remote repository错误信息Git 提示Permission denied (publickey)主题加载问题 建议设置config.yml params: assets: disableFingerprinting: true 网页缓存导致，更换浏览器再次测试
+PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resourceFailed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource in Blazor app</description>
       <content:encoded><![CDATA[<h2 id="git-错误信息">Git 错误信息</h2>
 <ol>
 <li>
-<p><a href="https://zhuanlan.zhihu.com/p/454666519">解决<code>git@github.com permission denied (publickey). fatal could not read from remote repository</code>错误信息</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/454666519" target="_blank" rel="noopener">解决<code>git@github.com permission denied (publickey). fatal could not read from remote repository</code>错误信息</a>
+</p>
 </li>
 <li>
-<p><a href="https://zhuanlan.zhihu.com/p/281094708">Git 提示<code>Permission denied (publickey)</code></a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/281094708" target="_blank" rel="noopener">Git 提示<code>Permission denied (publickey)</code></a>
+</p>
 </li>
 </ol>
 <h2 id="主题加载问题">主题加载问题</h2>
@@ -94,13 +198,16 @@ Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute f
 <p>网页缓存导致，更换浏览器再次测试</p>
 </li>
 <li>
-<p><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets">PaperMod-FAQs</a></p>
+<p><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets" target="_blank" rel="noopener">PaperMod-FAQs</a>
+</p>
 </li>
 <li>
-<p><a href="https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource">Hugo - Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource</a></p>
+<p><a href="https://stackoverflow.com/questions/65040931/hugo-failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource" target="_blank" rel="noopener">Hugo - Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource</a>
+</p>
 </li>
 <li>
-<p><a href="https://stackoverflow.com/questions/69926878/failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource-in-blazo">Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource in Blazor app</a></p>
+<p><a href="https://stackoverflow.com/questions/69926878/failed-to-find-a-valid-digest-in-the-integrity-attribute-for-resource-in-blazo" target="_blank" rel="noopener">Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute for resource in Blazor app</a>
+</p>
 </li>
 </ol>
 ]]></content:encoded>
@@ -112,22 +219,26 @@ Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute f
       <pubDate>Sun, 30 Jul 2023 21:34:30 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/1buildblog/</guid>
-      <description>Windows安装Hugo (2021-09-07)
-使用Hugo生成静态博客并部署在GitHub上 (2021-08-08)
-Hugo + GitHub Action，搭建你的博客自动发布系统 (2022-05-30)
-使用 Hugo 发布文章 (2019-12-15)</description>
+      <description>Windows安装Hugo(2021-09-07)
+使用Hugo生成静态博客并部署在GitHub上(2021-08-08)
+Hugo + GitHub Action，搭建你的博客自动发布系统(2022-05-30)
+使用 Hugo 发布文章(2019-12-15)</description>
       <content:encoded><![CDATA[<ol>
 <li>
-<p><a href="https://cloud.tencent.com/developer/article/1873693">Windows安装Hugo</a> (2021-09-07)</p>
+<p><a href="https://cloud.tencent.com/developer/article/1873693" target="_blank" rel="noopener">Windows安装Hugo</a>
+ (2021-09-07)</p>
 </li>
 <li>
-<p><a href="https://zhuanlan.zhihu.com/p/397612900">使用Hugo生成静态博客并部署在GitHub上</a> (2021-08-08)</p>
+<p><a href="https://zhuanlan.zhihu.com/p/397612900" target="_blank" rel="noopener">使用Hugo生成静态博客并部署在GitHub上</a>
+ (2021-08-08)</p>
 </li>
 <li>
-<p><a href="https://client.sspai.com/post/73512#!">Hugo + GitHub Action，搭建你的博客自动发布系统</a> (2022-05-30)</p>
+<p><a href="https://client.sspai.com/post/73512#!" target="_blank" rel="noopener">Hugo + GitHub Action，搭建你的博客自动发布系统</a>
+ (2022-05-30)</p>
 </li>
 <li>
-<p><a href="https://tangzixiang.github.io/posts/2019/%E4%BD%BF%E7%94%A8-hugo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/">使用 Hugo 发布文章</a> (2019-12-15)</p>
+<p><a href="https://tangzixiang.github.io/posts/2019/%E4%BD%BF%E7%94%A8-hugo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/" target="_blank" rel="noopener">使用 Hugo 发布文章</a>
+ (2019-12-15)</p>
 </li>
 </ol>
 ]]></content:encoded>
