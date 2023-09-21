@@ -64,27 +64,18 @@ PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&a
       <pubDate>Sun, 30 Jul 2023 21:34:30 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/1buildblog/</guid>
-      <description>Windows安装Hugo(2021-09-07)
-使用Hugo生成静态博客并部署在GitHub上(2021-08-08)
-Hugo + GitHub Action，搭建你的博客自动发布系统(2022-05-30)
-使用 Hugo 发布文章(2019-12-15)</description>
+      <description> Windows安装Hugo(2021-09-07) 使用Hugo生成静态博客并部署在GitHub上(2021-08-08) Hugo + GitHub Action，搭建你的博客自动发布系统(2022-05-30) 使用 Hugo 发布文章(2019-12-15) Hugo 静态网站图片插入问题(2020-01-22) </description>
       <content:encoded><![CDATA[<ol>
-<li>
-<p><a href="https://cloud.tencent.com/developer/article/1873693" target="_blank" rel="noopener">Windows安装Hugo</a>
- (2021-09-07)</p>
-</li>
-<li>
-<p><a href="https://zhuanlan.zhihu.com/p/397612900" target="_blank" rel="noopener">使用Hugo生成静态博客并部署在GitHub上</a>
- (2021-08-08)</p>
-</li>
-<li>
-<p><a href="https://client.sspai.com/post/73512#!" target="_blank" rel="noopener">Hugo + GitHub Action，搭建你的博客自动发布系统</a>
- (2022-05-30)</p>
-</li>
-<li>
-<p><a href="https://tangzixiang.github.io/posts/2019/%E4%BD%BF%E7%94%A8-hugo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/" target="_blank" rel="noopener">使用 Hugo 发布文章</a>
- (2019-12-15)</p>
-</li>
+<li><a href="https://cloud.tencent.com/developer/article/1873693" target="_blank" rel="noopener">Windows安装Hugo</a>
+ (2021-09-07)</li>
+<li><a href="https://zhuanlan.zhihu.com/p/397612900" target="_blank" rel="noopener">使用Hugo生成静态博客并部署在GitHub上</a>
+ (2021-08-08)</li>
+<li><a href="https://client.sspai.com/post/73512#!" target="_blank" rel="noopener">Hugo + GitHub Action，搭建你的博客自动发布系统</a>
+ (2022-05-30)</li>
+<li><a href="https://tangzixiang.github.io/posts/2019/%E4%BD%BF%E7%94%A8-hugo-%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/" target="_blank" rel="noopener">使用 Hugo 发布文章</a>
+ (2019-12-15)</li>
+<li><a href="https://blog.dontjudge.cn/post/hugo-%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5/" target="_blank" rel="noopener">Hugo 静态网站图片插入问题</a>
+(2020-01-22)</li>
 </ol>
 ]]></content:encoded>
     </item>
