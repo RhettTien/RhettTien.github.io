@@ -18,22 +18,7 @@
       <pubDate>Thu, 21 Sep 2023 15:19:02 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/4findwallpaper/</guid>
-      <description>前言 之所以不说找想要的照片，是因为找壁纸是比较容易的，因为它很可能已经广泛传播，而个人上传在社交平台的图片，大多数在识图引擎是找不到的。
-本次的例子源于一次互联网漫步，偶然在一个社群中看到了一个帖子，决定比较有意思，而且此问题尚未解决，又因为我经常在互联网搜集需要的资料，所以很想尝试一番。也因为看过一些根据一张照片，寻找拍摄人的行踪的侦探游戏，所以对这个问题很感兴趣。
-正文 帖子正文：
-首先尝试直接截图搜索，在 Google 和 Yandex 翻了翻没找到，而且效果也不理想，决定先处理下图像再搜索。不使用 Baidu 等识图引擎，是没有使用他们的习惯。
-继续查看回复时发现，在帖子下方有人贴出了图像出处的视频链接，因此可以获取到更清楚的图片了，准备认真找找看。
-调整清晰度截屏，使用 PS 简单的裁切出图像，去除文字和图标，然后用 AI 工具放大像素。
-再次使用 Google 和 Yandex 搜索，翻了近半个小时，仍然没有找到100%匹配的图片，反而有很多很多相似的图片。
-再次细看图片时发现，这张图片和识图找到的图片有个明显差别，它中间有一座房子，而识图的结果都是没有房子的。
-所以决定裁切图片再找，减少树林和天空的部分，突出关键元素：房子
-这时我突然想到，这个视频的博主是一个外国人，推测这张壁纸大概率也是外国人发出来的。
-所以我先是在 Google 上检索国外的识图网站，用他们来识别。
-有意思的是，排名前两个的识图网站是个聚合站点，他们把可以识图的搜索引擎放在了一起。
-我点开 Yandex 翻了翻发现还是老样子，然后看到了一个还没用过的识图引擎，然后就顺利找到了源图片，tineye识图引擎作出了卓越贡献。
-另外发现了国外版的 Sogou 和 Baidu，真是一言难尽。
-一点感悟： 几年之前，在我能浏览404网站的时候几乎还没用过 Google ，但在别人的视频中看到怎么使用它并找到了需要的东西，结合当时 Baidu 的使用体验，便深深觉得，学会英语并学会使用英语检索，真的能节约生命。
-附上几个不错的壁纸站点： Awesome Wallpapers4k WallpapersWallpaper CaveWallpaperFXFree HD Desktop WallpapersFondos de Pantalla HDCollections of HDQWallpaper Abyss - HDUnsplashhdqwalls.</description>
+      <description>根据一张照片找出原始图片的思路</description>
       <content:encoded><![CDATA[<h3 id="前言">前言</h3>
 <p>之所以不说找想要的<strong>照片</strong>，是因为找<strong>壁纸</strong>是比较容易的，因为它很可能已经广泛传播，而个人上传在社交平台的图片，大多数在识图引擎是找不到的。</p>
 <p>本次的例子源于一次互联网漫步，偶然在一个社群中看到了一个帖子，决定比较有意思，而且此问题尚未解决，又因为我经常在互联网搜集需要的资料，所以很想尝试一番。也因为看过一些根据一张照片，寻找拍摄人的行踪的侦探游戏，所以对这个问题很感兴趣。</p>
@@ -95,6 +80,110 @@
 <p><a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels</a>
 </p>
 <p><a href="https://www.ilikewallpaper.net/" target="_blank" rel="noopener">iLikeWallpaper</a>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>找书不求人</title>
+      <link>https://www.rhetttien.cn/posts/blog/3findbooksanywhere/</link>
+      <pubDate>Wed, 30 Aug 2023 23:43:51 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/3findbooksanywhere/</guid>
+      <description>电子书下载站汇总</description>
+      <content:encoded><![CDATA[<h2 id="1豆瓣网资源脚本">1.豆瓣网资源脚本</h2>
+<p>脚本安装地址：<a href="https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener">豆瓣资源下载大师</a>
+</p>
+<p>效果图：</p>
+<p><img loading="lazy" src="/img/doubanjiaoben.png" alt="doubanjiaoben"  />
+</p>
+<h2 id="2国内站">2.国内站</h2>
+<h3 id="21下载">2.1下载</h3>
+<p><a href="https://yabook.org/" target="_blank" rel="noopener">雅书</a>
+ PDF电子书</p>
+<p><a href="https://findbooks.eu.org/" target="_blank" rel="noopener">找书网</a>
+ 聚合搜索下载</p>
+<p><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">鸠摩搜书</a>
+ 可以检索到网盘分享链接</p>
+<p><a href="https://bks.thefuture.top/" target="_blank" rel="noopener">The Future</a>
+ 聚合搜索下载</p>
+<p><a href="http://www.banshujiang.cn/" target="_blank" rel="noopener">搬书匠</a>
+ 计算机电子书</p>
+<p><a href="https://www.nmod.net/" target="_blank" rel="noopener">NMOD电子书</a>
+</p>
+<p><a href="https://haodoo.net/" target="_blank" rel="noopener">好读</a>
+</p>
+<p><a href="https://freembook.com/" target="_blank" rel="noopener">free book</a>
+ 聚合搜索下载，需要借助浏览器脚本</p>
+<p><a href="http://www.dzkbw.com/" target="_blank" rel="noopener">电子课本网</a>
+ 小初高教材下载</p>
+<p><a href="http://www.tushu007.com/" target="_blank" rel="noopener">第一图书网</a>
+ 电子书</p>
+<p><a href="https://www.tjxz.cc/tag/books" target="_blank" rel="noopener">田间小站</a>
+ 电子书、外刊</p>
+<h3 id="22馆藏查阅">2.2馆藏查阅</h3>
+<p><a href="http://www.ucdrs.superlib.net/" target="_blank" rel="noopener">全国图书馆参考联盟</a>
+ 可以索引到到你所在大学或城市图书馆，也可索引到超星学习通查阅</p>
+<h3 id="23在线阅读">2.3在线阅读</h3>
+<p><a href="https://ctext.org/zh" target="_blank" rel="noopener">中國哲學書電子化計劃</a>
+ 繁体中文古籍在线</p>
+<p><a href="https://www.tianshuge.com/" target="_blank" rel="noopener">天书阁</a>
+ 古籍在线</p>
+<p><a href="https://www.gushiwen.cn/" target="_blank" rel="noopener">古诗文网</a>
+ 古诗、古籍在线</p>
+<p><a href="http://novel.tingroom.com/" target="_blank" rel="noopener">英语小说网</a>
+ 双语在线阅读</p>
+<h3 id="24在线商城">2.4在线商城</h3>
+<p><a href="http://www.bookschina.com/" target="_blank" rel="noopener">中图网</a>
+</p>
+<p><a href="https://www.duozhuayu.com/book" target="_blank" rel="noopener">多抓鱼</a>
+ 买卖靠谱正品二手书</p>
+<p><a href="https://www.kongfz.com/" target="_blank" rel="noopener">孔夫子旧书</a>
+ 各种旧书，绝版书</p>
+<h2 id="3国外站">3.国外站</h2>
+<p><a href="https://zh.zlibrary-sg.se/" target="_blank" rel="noopener">z-library</a>
+ 中文英文，经历过FBI关停的那个，唯一官网，其余均为克隆站点。需要魔法上网，可以试试在 Tor Browser 打开，可能会有意外效果加成</p>
+<p><a href="https://libgen.is/" target="_blank" rel="noopener">Library Genesis</a>
+ 中英文电子书，使用体验仅次于 Z-lib</p>
+<p><a href="https://www.gutenberg.org/" target="_blank" rel="noopener">古登堡</a>
+ 外语电子书</p>
+<p><a href="https://libcats.org/" target="_blank" rel="noopener">libcats</a>
+ 外语电子书，毛子的网站，装修风格像Z-lib</p>
+<p><a href="https://www.pdfdrive.com/" target="_blank" rel="noopener">PDF Drive</a>
+ PDF电子书，包含中英文</p>
+<p><a href="https://epdf.tips/" target="_blank" rel="noopener">e PDF</a>
+ 外语电子书</p>
+<p><a href="https://openlibrary.org/" target="_blank" rel="noopener">open library</a>
+ 借阅制在线阅读，外语电子书</p>
+<p><a href="https://foxgreat.com/" target="_blank" rel="noopener">Fox Great</a>
+ 计算机类外语电子书</p>
+<p><a href="https://bookdash.org/" target="_blank" rel="noopener">book dash</a>
+ 外语童书</p>
+<h2 id="4外语有声书">4.外语有声书</h2>
+<p><a href="https://audiobookbay.is/" target="_blank" rel="noopener">ABB</a>
+ AudioBook Bay</p>
+<p><a href="http://www.audiobooktreasury.com/free-audiobooks/" target="_blank" rel="noopener">Audio Book Treasury</a>
+</p>
+<p><a href="http://www.loyalbooks.com/" target="_blank" rel="noopener">Loyal Books</a>
+</p>
+<p><a href="https://librivox.org/" target="_blank" rel="noopener">LibriVox</a>
+ 外语有声书、电子书</p>
+<p><a href="https://www.moxon.net/ebooks/audiobooks.html" target="_blank" rel="noopener">Free Audiobooks</a>
+</p>
+<p><a href="http://www.loudlit.org/collection.htm" target="_blank" rel="noopener">LoudLit</a>
+</p>
+<p><a href="http://www.itsfreedownloads.com/free-itunes-audiobooks/" target="_blank" rel="noopener">Free Audio Books</a>
+</p>
+<p><a href="https://FreeClassicAudioBooks.com" target="_blank" rel="noopener">FreeClassicAudioBooks</a>
+</p>
+<p><a href="https://freeeslmaterials.com/sean_banville_lessons.html" target="_blank" rel="noopener">Free ESL MATERIALS</a>
+</p>
+<h2 id="5私人博客">5.私人博客</h2>
+<p><a href="https://salttiger.com/" target="_blank" rel="noopener">SaltTiger</a>
+ 程序员书籍</p>
+<p><a href="https://github.com/justjavac/free-programming-books-zh_CN" target="_blank" rel="noopener">Github 中文编程图书索引</a>
+</p>
+<p><a href="https://github.com/programthink/books" target="_blank" rel="noopener">Github 个人电子书库</a>
 </p>
 ]]></content:encoded>
     </item>

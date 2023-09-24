@@ -18,8 +18,7 @@
       <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/2sometrap/</guid>
-      <description>Git 错误信息 解决git@github.com permission denied (publickey). fatal could not read from remote repository错误信息Git 提示Permission denied (publickey)主题加载问题 建议设置config.yml params: assets: disableFingerprinting: true 网页缓存导致，更换浏览器再次测试
-PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resourceFailed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource in Blazor app</description>
+      <description>搭建Hugo时遇到的问题以及解决办法</description>
       <content:encoded><![CDATA[<h2 id="git-错误信息">Git 错误信息</h2>
 <ol>
 <li>
@@ -64,7 +63,7 @@ PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&a
       <pubDate>Sun, 30 Jul 2023 21:34:30 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/1buildblog/</guid>
-      <description> Windows安装Hugo(2021-09-07) 使用Hugo生成静态博客并部署在GitHub上(2021-08-08) Hugo + GitHub Action，搭建你的博客自动发布系统(2022-05-30) 使用 Hugo 发布文章(2019-12-15) Hugo 静态网站图片插入问题(2020-01-22) </description>
+      <description>搭建Hugo中参考的文档</description>
       <content:encoded><![CDATA[<ol>
 <li><a href="https://cloud.tencent.com/developer/article/1873693" target="_blank" rel="noopener">Windows安装Hugo</a>
  (2021-09-07)</li>

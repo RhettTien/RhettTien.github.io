@@ -18,22 +18,7 @@
       <pubDate>Thu, 21 Sep 2023 15:19:02 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/4findwallpaper/</guid>
-      <description>前言 之所以不说找想要的照片，是因为找壁纸是比较容易的，因为它很可能已经广泛传播，而个人上传在社交平台的图片，大多数在识图引擎是找不到的。
-本次的例子源于一次互联网漫步，偶然在一个社群中看到了一个帖子，决定比较有意思，而且此问题尚未解决，又因为我经常在互联网搜集需要的资料，所以很想尝试一番。也因为看过一些根据一张照片，寻找拍摄人的行踪的侦探游戏，所以对这个问题很感兴趣。
-正文 帖子正文：
-首先尝试直接截图搜索，在 Google 和 Yandex 翻了翻没找到，而且效果也不理想，决定先处理下图像再搜索。不使用 Baidu 等识图引擎，是没有使用他们的习惯。
-继续查看回复时发现，在帖子下方有人贴出了图像出处的视频链接，因此可以获取到更清楚的图片了，准备认真找找看。
-调整清晰度截屏，使用 PS 简单的裁切出图像，去除文字和图标，然后用 AI 工具放大像素。
-再次使用 Google 和 Yandex 搜索，翻了近半个小时，仍然没有找到100%匹配的图片，反而有很多很多相似的图片。
-再次细看图片时发现，这张图片和识图找到的图片有个明显差别，它中间有一座房子，而识图的结果都是没有房子的。
-所以决定裁切图片再找，减少树林和天空的部分，突出关键元素：房子
-这时我突然想到，这个视频的博主是一个外国人，推测这张壁纸大概率也是外国人发出来的。
-所以我先是在 Google 上检索国外的识图网站，用他们来识别。
-有意思的是，排名前两个的识图网站是个聚合站点，他们把可以识图的搜索引擎放在了一起。
-我点开 Yandex 翻了翻发现还是老样子，然后看到了一个还没用过的识图引擎，然后就顺利找到了源图片，tineye识图引擎作出了卓越贡献。
-另外发现了国外版的 Sogou 和 Baidu，真是一言难尽。
-一点感悟： 几年之前，在我能浏览404网站的时候几乎还没用过 Google ，但在别人的视频中看到怎么使用它并找到了需要的东西，结合当时 Baidu 的使用体验，便深深觉得，学会英语并学会使用英语检索，真的能节约生命。
-附上几个不错的壁纸站点： Awesome Wallpapers4k WallpapersWallpaper CaveWallpaperFXFree HD Desktop WallpapersFondos de Pantalla HDCollections of HDQWallpaper Abyss - HDUnsplashhdqwalls.</description>
+      <description>根据一张照片找出原始图片的思路</description>
       <content:encoded><![CDATA[<h3 id="前言">前言</h3>
 <p>之所以不说找想要的<strong>照片</strong>，是因为找<strong>壁纸</strong>是比较容易的，因为它很可能已经广泛传播，而个人上传在社交平台的图片，大多数在识图引擎是找不到的。</p>
 <p>本次的例子源于一次互联网漫步，偶然在一个社群中看到了一个帖子，决定比较有意思，而且此问题尚未解决，又因为我经常在互联网搜集需要的资料，所以很想尝试一番。也因为看过一些根据一张照片，寻找拍摄人的行踪的侦探游戏，所以对这个问题很感兴趣。</p>
@@ -105,7 +90,7 @@
       <pubDate>Wed, 30 Aug 2023 23:43:51 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/3findbooksanywhere/</guid>
-      <description>电子书下载站点汇总</description>
+      <description>电子书下载站汇总</description>
       <content:encoded><![CDATA[<h2 id="1豆瓣网资源脚本">1.豆瓣网资源脚本</h2>
 <p>脚本安装地址：<a href="https://greasyfork.org/zh-CN/scripts/329484-%E8%B1%86%E7%93%A3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E5%A4%A7%E5%B8%88-1%E7%A7%92%E6%90%9E%E5%AE%9A%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90-%E5%9B%BE%E4%B9%A6%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener">豆瓣资源下载大师</a>
 </p>
@@ -209,8 +194,7 @@
       <pubDate>Mon, 31 Jul 2023 23:29:12 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/2sometrap/</guid>
-      <description>Git 错误信息 解决git@github.com permission denied (publickey). fatal could not read from remote repository错误信息Git 提示Permission denied (publickey)主题加载问题 建议设置config.yml params: assets: disableFingerprinting: true 网页缓存导致，更换浏览器再次测试
-PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resourceFailed to find a valid digest in the &amp;lsquo;integrity&amp;rsquo; attribute for resource in Blazor app</description>
+      <description>搭建Hugo时遇到的问题以及解决办法</description>
       <content:encoded><![CDATA[<h2 id="git-错误信息">Git 错误信息</h2>
 <ol>
 <li>
@@ -255,7 +239,7 @@ PaperMod-FAQsHugo - Failed to find a valid digest in the &amp;lsquo;integrity&a
       <pubDate>Sun, 30 Jul 2023 21:34:30 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/1buildblog/</guid>
-      <description> Windows安装Hugo(2021-09-07) 使用Hugo生成静态博客并部署在GitHub上(2021-08-08) Hugo + GitHub Action，搭建你的博客自动发布系统(2022-05-30) 使用 Hugo 发布文章(2019-12-15) Hugo 静态网站图片插入问题(2020-01-22) </description>
+      <description>搭建Hugo中参考的文档</description>
       <content:encoded><![CDATA[<ol>
 <li><a href="https://cloud.tencent.com/developer/article/1873693" target="_blank" rel="noopener">Windows安装Hugo</a>
  (2021-09-07)</li>
