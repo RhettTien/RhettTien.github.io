@@ -1,11 +1,12 @@
 function processUrl(str) {
-
-    var extractedStr = str.match(/\d{3,}(?!\d{3,163})/); 
+    var result = "";
+    var extractedStr = str.match(/\d{4,}(?!\d{3,163})/); 
 
     if (extractedStr == undefined || extractedStr == null || extractedStr == '') {
-        return "";
+        console.log(result);
+        return result;
     }else{
-    var result = "https://music.163.com/song/media/outer/url?id=" + extractedStr + ".mp3";
+    result = "https://music.163.com/song/media/outer/url?id=" + extractedStr + ".mp3";
     }
     console.log(result);
     return result;  
