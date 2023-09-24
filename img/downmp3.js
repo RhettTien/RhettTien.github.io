@@ -1,6 +1,6 @@
 function processUrl(str) {
     var result = "";
-    var extractedStr = str.match(/\d{4,}(?!\d{3,163})/); 
+    var extractedStr = str.match(/\d{4,}(?!\d{4,1630})/); 
 
     if (extractedStr == undefined || extractedStr == null || extractedStr == '') {
         console.log(result);
