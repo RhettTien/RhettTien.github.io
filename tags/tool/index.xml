@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tool on RhettTien</title>
+    <link>https://www.rhetttien.cn/tags/tool/</link>
+    <description>Recent content in tool on RhettTien</description>
+    <image>
+      <title>RhettTien</title>
+      <url>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Sep 2023 00:02:58 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在线工具</title>
+      <link>https://www.rhetttien.cn/posts/blog/5.onlinetools/</link>
+      <pubDate>Mon, 25 Sep 2023 00:02:58 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/5.onlinetools/</guid>
+      <description>在线小工具</description>
+      <content:encoded><![CDATA[
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>NetMusic音乐下载</title>  
+  <script src="/img/downmp3.js"></script>  
+<style>
+.urlname{
+  text-indent: 10px;
+  border-radius: 5px;
+  width: 450px;
+  height: 35px;
+  font-size: 16px;
+  border: 2px solid yellow;
+}
+
+.filename{
+  text-indent: 10px;
+  border-radius: 5px;
+  width: 378px;
+  height: 42px;
+  border: 2px solid yellow;
+}
+
+.titles{
+  color: #E20000;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: FZYaoti;
+}
+
+.button{
+  width: 55px;
+  height: 45px;
+  border-radius: 5px;
+  border: 3px solid #E20000;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+</style>
+</head>  
+<body>
+  <div class="titles">下载网易云的音乐</div>
+  <input class="urlname" type="text" id="inputUrl" placeholder="请输入分享链接" >
+  <br>
+  <input class="filename" type="text" id="filename" placeholder="请输入文件名">&nbsp;   
+  <button class="button" onclick="downloadFile()">下载</button>  
+
+  <script>  
+    function downloadFile() {  
+      var inputUrl = document.getElementById("inputUrl").value;
+      var filename = document.getElementById("filename").value;	  
+      var downloadUrl = processUrl(inputUrl); // 调用'url.js'中的函数处理地址  
+      if (downloadUrl) {  
+        // 创建隐藏的<a>元素并设置href和download属性  
+        var downloadLink = document.createElement("a");  
+        downloadLink.href = downloadUrl;  
+        downloadLink.download = filename + ".mp3"; // 可根据需要更改文件名和扩展名  
+        downloadLink.style.display = "none";  
+
+        // 将<a>元素添加到DOM中并模拟点击下载  
+        document.body.appendChild(downloadLink);  
+        downloadLink.click();  
+        document.body.removeChild(downloadLink);  
+      } else {  
+        alert("未找到有效的URL");  
+      }  
+    }  
+  </script>  
+</body>  
+</html>
+
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
