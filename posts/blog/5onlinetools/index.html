@@ -108,8 +108,8 @@
   "keywords": [
     "tool", "在线工具"
   ],
-  "articleBody": " \u003c!DOCTYPE html\u003e NetMusic音乐下载 下载网易云的音乐 下载 ",
-  "wordCount" : "6",
+  "articleBody": " \u003c!DOCTYPE html\u003e NetMusic音乐下载 下载网易云(非会员)的音乐 下载 ",
+  "wordCount" : "5",
   "inLanguage": "en",
   "datePublished": "2023-09-25T00:02:58+08:00",
   "dateModified": "2023-09-25T00:02:58+08:00",
@@ -228,7 +228,7 @@
 
 
 
-📅:&nbsp;<span title='2023-09-25 00:02:58 +0800 CST'>2023-09-25</span>&nbsp; &nbsp;📄:&nbsp;6字&nbsp; &nbsp;🕔: 1分钟&nbsp; &nbsp;🖋️:&nbsp;Rhett
+📅:&nbsp;<span title='2023-09-25 00:02:58 +0800 CST'>2023-09-25</span>&nbsp; &nbsp;📄:&nbsp;5字&nbsp; &nbsp;🕔: 1分钟&nbsp; &nbsp;🖋️:&nbsp;Rhett
 
 
 
@@ -313,18 +313,22 @@
 .urlname{
   text-indent: 10px;
   border-radius: 5px;
-  width: 450px;
+  width: 470px;
   height: 35px;
   font-size: 16px;
-  border: 2px solid yellow;
+  color: #E20000;
+  border: 2px solid #59f2a6;
 }
 
 .filename{
+  font-size: 16px;
   text-indent: 10px;
+  color: #E20000;
   border-radius: 5px;
-  width: 378px;
-  height: 42px;
-  border: 2px solid yellow;
+  width: 470px;
+  height: 35px;
+  margin-top: 8px;
+  border: 2px solid #59f2a6;
 }
 
 .titles{
@@ -335,22 +339,51 @@
 }
 
 .button{
-  width: 55px;
-  height: 45px;
+  width: 80px;
+  height: 40px;
   border-radius: 5px;
-  border: 3px solid #E20000;
-  margin-top: 10px;
-  font-size: 15px;
+  border: 3px solid #ff7c3e;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.placeholder{
+  text-indent: 10px;
+  border-radius: 5px;
+  width: 170px;
+  height: 35px;
+  font-size: 16px;
+  color: #E20000;
+  border: 2px solid #59f2a6;
+}
+
+.placeholder2{
+  font-size: 16px;
+  text-indent: 10px;
+  color: #E20000;
+  border-radius: 5px;
+  width: 180px;
+  height: 35px;
+  border: 2px solid #59f2a6;
+}
+
+.placeholder3{
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid #ff7c3e;
+  margin-top: 8px;
+  font-size: 13px;
 }
 
 </style>
 </head>  
 <body>
-  <div class="titles">下载网易云的音乐</div>
-  <input class="urlname" type="text" id="inputUrl" placeholder="请输入分享链接" >
+  <div class="titles">下载网易云(非会员)的音乐</div>
+  <input class="urlname" placeholder-class="placeholder" type="text" id="inputUrl" placeholder="粘贴分享链接" >
   <br>
-  <input class="filename" type="text" id="filename" placeholder="请输入文件名">&nbsp;   
-  <button class="button" onclick="downloadFile()">下载</button>  
+  <input class="filename" placeholder-class="placeholder2" type="text" id="filename" placeholder="保存的文件名">  
+  <button class="button" placeholder-class="placeholder3" onclick="downloadFile()">下载</button>  
 
   <script>  
     function downloadFile() {  
