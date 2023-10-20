@@ -18,18 +18,28 @@
       <pubDate>Fri, 20 Oct 2023 18:25:42 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/6vscodetotomcat/</guid>
-      <description>文章页面显示的描述</description>
+      <description>VSCode配置Tomcat注意事项</description>
       <content:encoded><![CDATA[<h2 id="tomcat-版本">Tomcat 版本</h2>
 <p>Tomcat 9 之后的 <code>Servlet</code> 是 <code>jakata.servlet.Servlet</code> 的包名，Tomcat 9 以及之前的版本是 <code>javax.servlet.Servlet</code> 的包名。</p>
 <p>本文基于 Tomcat 10 所写。</p>
 <h2 id="需要的插件">需要的插件</h2>
-<p>Tomcat 插件</p>
+<ul>
+<li>
+<p><strong>Tomcat 插件</strong></p>
 <p><code>Tomcat for Java</code> 插件已经废弃，需要使用 Red Hat 提供的 <code>Community Server Connectors</code> 插件。</p>
-<p>Java 插件</p>
+</li>
+<li>
+<p><strong>Java 插件</strong></p>
 <p>在我的机器上 <code>Java Language Support</code> 会报无法启动错误，所以用的也是Red Hat 提供的 <code>Language Support for Java(TM)by Red Hat</code> 。</p>
-<p>Maven 插件</p>
+</li>
+<li>
+<p><strong>Maven 插件</strong></p>
 <p><code>Maven for Java</code></p>
+</li>
+</ul>
 <h2 id="添加-maven-本地依赖">添加 Maven 本地依赖</h2>
+<ul>
+<li>
 <p><strong>本地依赖</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>    <span style="color:#f92672">&lt;dependency&gt;</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;groupId&gt;</span>jakarta.servlet<span style="color:#f92672">&lt;/groupId&gt;</span>
@@ -38,39 +48,61 @@
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;scope&gt;</span>system<span style="color:#f92672">&lt;/scope&gt;</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;systemPath&gt;</span>${project.basedir}/src/main/webapp/WEB-INF/lib/servlet-api.jar<span style="color:#f92672">&lt;/systemPath&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/dependency&gt;</span>
-</span></span></code></pre></div><p>通过网络添加</p>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>通过网络添加</strong></p>
 
-<p align="center">
-<img src="/img/vscodetomcat.png" height="600" width="auto">
-</p>
-
+    <p align="center">
+    <img src="/img/vscodetomcat.png" width="700">
+    </p>
+    
+</li>
+</ul>
 <h2 id="启动实例遇到的问题及解决方案">启动实例遇到的问题及解决方案</h2>
 <p><strong>404 的解决办法</strong></p>
+<ul>
+<li>
 <p>1.文件存放结构错误</p>
+</li>
+<li>
 <p>2.servlet配置路径错误</p>
 <p>在 <code>web.xml</code> 文件检查 <code>mapping</code> 类名、路径。</p>
+</li>
+<li>
 <p>3.war 包结构异常</p>
 
-<p align="center">
-<img src="/img/wrongwarpackage.png" height="600" width="auto">
-</p>
-
+    <p align="center">
+    <img src="/img/wrongwarpackage.png" width="350">
+    </p>
+    
 <p>用maven原生的命令进行打包。</p>
+</li>
+<li>
 <p>4.jre环境变量</p>
 <p>除了 <code>JAVA_HOME</code> 环境变量，还需要添加 <code>JRE_HOME</code> 环境变量。</p>
 <p>高版本的JDK看不到JRE目录，需要手动生成。</p>
 <p>进入JDK根目录，用管理员权限打开dos窗口，执行</p>
 <p><code>bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre</code> 命令。</p>
+</li>
+</ul>
 <p><strong>500 的解决办法</strong></p>
+<ul>
+<li>
 <p>1.缺失jar包</p>
 <p>在 <code>WEB_INF</code> 目录新建 <code>lib</code> 文件夹，添加依赖包，并在 Maven 中配置。</p>
+</li>
+<li>
 <p>2.配置文件类名错误</p>
 <p>检查 <code>web.xml</code> 中的 java 类名。</p>
+</li>
+<li>
 <p>3.引用包名错误</p>
 <p>根据 Tomcat 版本检查 java 文件的包名，检查 Maven 依赖中的包名。</p>
+</li>
+</ul>
 <p><strong>Tomcat 控制台中文乱码</strong></p>
-<p>在 Tomcat 的 <code>conf</code> 目录下，打开 <code>logging.properties</code> ，在50行左右修改 UTF-8 为 GBK 编码</p>
-<p><code>java.util.logging.ConsoleHandler.encoding = GBK</code> 。</p>
+<p>在 Tomcat 的 <code>conf</code> 目录下，打开 <code>logging.properties</code> ，在50行左右修改 UTF-8 为 GBK 编码
+<code>java.util.logging.ConsoleHandler.encoding = GBK</code> 。</p>
 <hr>
 <h2 id="参考的文档">参考的文档</h2>
 <p><a href="https://blog.csdn.net/qq_45775250/article/details/120037410" target="_blank" rel="noopener">vscode中部署tomcat全教程</a>
@@ -228,7 +260,7 @@
 <p>帖子正文：</p>
 
 <p align="center">
-<img src="/img/findpic345431.png" height="600" width="auto">
+<img src="/img/findpic345431.png" width="350">
 </p>
 
 <p>首先尝试直接截图搜索，在 Google 和 Yandex 翻了翻没找到，而且效果也不理想，决定先处理下图像再搜索。不使用 Baidu 等识图引擎，是没有使用他们的习惯。</p>
@@ -240,7 +272,7 @@
 <p>所以决定裁切图片再找，减少树林和天空的部分，<strong>突出关键元素</strong>：<strong>房子</strong></p>
 
 <p align="center">
-<img src="/img/findpic9845628534.jpg" height="400" width="auto">
+<img src="/img/findpic9845628534.jpg" width="300">
 </p>
 
 <p>这时我突然想到，这个视频的博主是一个外国人，<strong>推测这张壁纸大概率也是外国人发出来的</strong>。</p>
@@ -308,7 +340,7 @@
 <p>效果图：</p>
 
 <p align="center">
-<img src="/img/doubanjiaoben.png" height="500" width="auto">
+<img src="/img/doubanjiaoben.png" width="600">
 </p>
 
 <h2 id="2国内站">2.国内站</h2>
@@ -560,7 +592,7 @@
 </ol>
 <h2 id="主题加载问题">主题加载问题</h2>
 <ol>
-<li>建议设置<code>config.yml</code></li>
+<li><code>config.yml</code> 的建议设置</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">assets</span>:
