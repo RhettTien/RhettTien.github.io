@@ -18,7 +18,7 @@
       <pubDate>Fri, 20 Oct 2023 18:25:42 +0800</pubDate>
       
       <guid>https://www.rhetttien.cn/posts/blog/6vscodetotomcat/</guid>
-      <description>VSCode配置Tomcat注意事项</description>
+      <description>VSCode 配置 Tomcat 开发 maven Javaweb 项目注意事项以及报 404、500 的解决办法</description>
       <content:encoded><![CDATA[<h2 id="tomcat-版本">Tomcat 版本</h2>
 <p>Tomcat 9 之后的 <code>Servlet</code> 是 <code>jakata.servlet.Servlet</code> 的包名，Tomcat 9 以及之前的版本是 <code>javax.servlet.Servlet</code> 的包名。</p>
 <p>本文基于 Tomcat 10 所写。</p>
@@ -112,6 +112,8 @@
 <p><a href="https://blog.ixk.me/post/vscode-java-manually-imports-jar-and-source-package" target="_blank" rel="noopener">VSCode 手动导入jar和源码包</a>
 </p>
 <p><a href="https://blog.csdn.net/weixin_40774605/article/details/102584152" target="_blank" rel="noopener">VSCode 手动导入 jar包</a>
+</p>
+<p><a href="https://stackoverflow.com/questions/3365135/deploying-a-war-file-gives-me-a-404-status-code-on-tomcat" target="_blank" rel="noopener">Deploying a WAR file gives me a 404 Status Code on Tomcat</a>
 </p>
 <p><a href="https://blog.csdn.net/weixin_44027604/article/details/104932102" target="_blank" rel="noopener">war包结构不对，网页404的解决方法</a>
 </p>
