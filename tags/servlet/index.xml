@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Servlet on RhettTien</title>
+    <link>https://www.rhetttien.cn/tags/servlet/</link>
+    <description>Recent content in Servlet on RhettTien</description>
+    <image>
+      <title>RhettTien</title>
+      <url>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.rhetttien.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Oct 2023 18:25:42 +0800</lastBuildDate><atom:link href="https://www.rhetttien.cn/tags/servlet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VSCode配置Tomcat填坑指北</title>
+      <link>https://www.rhetttien.cn/posts/blog/6vscodetotomcat/</link>
+      <pubDate>Fri, 20 Oct 2023 18:25:42 +0800</pubDate>
+      
+      <guid>https://www.rhetttien.cn/posts/blog/6vscodetotomcat/</guid>
+      <description>文章页面显示的描述</description>
+      <content:encoded><![CDATA[<h2 id="tomcat-版本">Tomcat 版本</h2>
+<p>Tomcat 9 之后的 <code>Servlet</code> 是 <code>jakata.servlet.Servlet</code> 的包名，Tomcat 9 以及之前的版本是 <code>javax.servlet.Servlet</code> 的包名。</p>
+<p>本文基于 Tomcat 10 所写。</p>
+<h2 id="需要的插件">需要的插件</h2>
+<p>Tomcat 插件</p>
+<p><code>Tomcat for Java</code> 插件已经废弃，需要使用 Red Hat 提供的 <code>Community Server Connectors</code> 插件。</p>
+<p>Java 插件</p>
+<p>在我的机器上 <code>Java Language Support</code> 会报无法启动错误，所以用的也是Red Hat 提供的 <code>Language Support for Java(TM)by Red Hat</code> 。</p>
+<p>Maven 插件</p>
+<p><code>Maven for Java</code></p>
+<h2 id="添加-maven-本地依赖">添加 Maven 本地依赖</h2>
+<p><strong>本地依赖</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>    <span style="color:#f92672">&lt;dependency&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;groupId&gt;</span>jakarta.servlet<span style="color:#f92672">&lt;/groupId&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;artifactId&gt;</span>jakarta.servlet-api<span style="color:#f92672">&lt;/artifactId&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;version&gt;</span>6.0.0<span style="color:#f92672">&lt;/version&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;scope&gt;</span>system<span style="color:#f92672">&lt;/scope&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;systemPath&gt;</span>${project.basedir}/src/main/webapp/WEB-INF/lib/servlet-api.jar<span style="color:#f92672">&lt;/systemPath&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><p>通过网络添加</p>
+
+<p align="center">
+<img src="/img/vscodetomcat.png" height="600" width="auto">
+</p>
+
+<h2 id="启动实例遇到的问题及解决方案">启动实例遇到的问题及解决方案</h2>
+<p><strong>404 的解决办法</strong></p>
+<p>1.文件存放结构错误</p>
+<p>2.servlet配置路径错误</p>
+<p>在 <code>web.xml</code> 文件检查 <code>mapping</code> 类名、路径。</p>
+<p>3.war 包结构异常</p>
+
+<p align="center">
+<img src="/img/wrongwarpackage.png" height="600" width="auto">
+</p>
+
+<p>用maven原生的命令进行打包。</p>
+<p>4.jre环境变量</p>
+<p>除了 <code>JAVA_HOME</code> 环境变量，还需要添加 <code>JRE_HOME</code> 环境变量。</p>
+<p>高版本的JDK看不到JRE目录，需要手动生成。</p>
+<p>进入JDK根目录，用管理员权限打开dos窗口，执行</p>
+<p><code>bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre</code> 命令。</p>
+<p><strong>500 的解决办法</strong></p>
+<p>1.缺失jar包</p>
+<p>在 <code>WEB_INF</code> 目录新建 <code>lib</code> 文件夹，添加依赖包，并在 Maven 中配置。</p>
+<p>2.配置文件类名错误</p>
+<p>检查 <code>web.xml</code> 中的 java 类名。</p>
+<p>3.引用包名错误</p>
+<p>根据 Tomcat 版本检查 java 文件的包名，检查 Maven 依赖中的包名。</p>
+<p><strong>Tomcat 控制台中文乱码</strong></p>
+<p>在 Tomcat 的 <code>conf</code> 目录下，打开 <code>logging.properties</code> ，在50行左右修改 UTF-8 为 GBK 编码</p>
+<p><code>java.util.logging.ConsoleHandler.encoding = GBK</code> 。</p>
+<hr>
+<h2 id="参考的文档">参考的文档</h2>
+<p><a href="https://blog.csdn.net/qq_45775250/article/details/120037410" target="_blank" rel="noopener">vscode中部署tomcat全教程</a>
+</p>
+<p><a href="https://blog.csdn.net/Crazyjava_/article/details/104180709#:~:text=%E5%8E%9F%E5%9B%A0%E4%B8%80%EF%BC%9A%20tomcat%E5%9C%A8%E5%90%AF%E5%8A%A8%E6%97%B6%EF%BC%8C%E4%BC%9A%E8%AF%BB%E5%8F%96%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%8C%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AACATALINA_HOME%20%E4%B8%8EJAVA_HOME%E7%9A%84%E4%BF%A1%E6%81%AF%EF%BC%8CCATALINA_HOME%E5%8D%B3tomcat%E7%9A%84%E4%B8%BB%E7%9B%AE%E5%BD%95%EF%BC%8CJAVA_HOME%E5%8D%B3java%E5%AE%89%E8%A3%85%E7%9A%84%E4%B8%BB%E7%9B%AE%E5%BD%95%EF%BC%8Cjdk%E7%9A%84%E4%B8%BB%E7%9B%AE%E5%BD%95%E3%80%82%20%E9%A6%96%E5%85%88%EF%BC%8C%E8%A6%81%E5%9C%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%A4%84%EF%BC%8C%E9%85%8D%E7%BD%AEJAVA_HOME%EF%BC%8C%E6%B3%A8%E6%84%8F%E5%8F%98%E9%87%8F%E5%80%BC%E6%98%AFjdk%E7%9A%84%E4%B8%BB%E7%9B%AE%E5%BD%95%EF%BC%8C%E4%B8%8D%E6%98%AFbin%E7%9B%AE%E5%BD%95%EF%BC%8C%E5%B9%B6%E4%B8%94%E4%B8%8D%E8%A6%81%E5%8A%A0%E5%88%86%E5%8F%B7%EF%BC%8C%E5%A6%82%E5%9B%BE%EF%BC%9A,%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9A%20%E6%A3%80%E6%9F%A5JDK%E7%9A%84%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%98%AF%E5%90%A6%E9%85%8D%E7%BD%AE%E6%AD%A3%E7%A1%AE%20%E5%8E%9F%E5%9B%A0%E4%BA%8C%EF%BC%9A%20%E5%A6%82%E6%9E%9C%E8%BF%99%E6%A0%B7%E9%85%8D%E7%BD%AE%EF%BC%8Cstartup.bat%E8%BF%98%E6%98%AF%E4%B8%80%E9%97%AA%E8%80%8C%E8%BF%87%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BBstartup.bat%EF%BC%8C%E7%BC%96%E8%BE%91%EF%BC%8C%E5%9C%A8%E6%96%87%E6%9C%AC%E7%9A%84%E6%9C%80%E5%90%8E%E6%95%B2%E4%B8%8Apause%EF%BC%8C%E4%BF%9D%E5%AD%98%E5%90%8E%E9%87%8D%E6%96%B0%E8%BF%90%E8%A1%8Cstartup.bat%EF%BC%8C%E8%BF%99%E6%97%B6%E5%80%99%E7%AA%97%E5%8F%A3%E4%B8%8D%E4%BC%9A%E5%86%8D%E4%B8%80%E9%97%AA%E8%80%8C%E8%BF%87%EF%BC%8C%E8%80%8C%E6%98%AF%E5%81%9C%E7%95%99%E5%9C%A8%E6%A1%8C%E9%9D%A2%E4%B8%8A%EF%BC%88%E8%B0%83%E8%AF%95%E6%88%90%E5%8A%9F%EF%BC%8C%E6%8A%8Apause%E5%8E%BB%E6%8E%89%E5%8D%B3%E5%8F%AF%EF%BC%89%E3%80%82" target="_blank" rel="noopener">Tomcat启动startup.bat一闪而过就消失</a>
+</p>
+<p><a href="https://blog.ixk.me/post/vscode-java-manually-imports-jar-and-source-package" target="_blank" rel="noopener">VSCode 手动导入jar和源码包</a>
+</p>
+<p><a href="https://blog.csdn.net/weixin_40774605/article/details/102584152" target="_blank" rel="noopener">VSCode 手动导入 jar包</a>
+</p>
+<p><a href="https://blog.csdn.net/weixin_44027604/article/details/104932102" target="_blank" rel="noopener">war包结构不对，网页404的解决方法</a>
+</p>
+<p><a href="https://blog.csdn.net/wang791913818/article/details/119087443" target="_blank" rel="noopener">实例化Servlet类异常 报错500</a>
+</p>
+<p><a href="https://blog.csdn.net/G_rainy/article/details/105799165" target="_blank" rel="noopener">实例化servlet类[web.LoginServlet]异常</a>
+</p>
+<p><a href="https://blog.csdn.net/weixin_49193202/article/details/122141728" target="_blank" rel="noopener">JDK-17设置jre环境变量</a>
+</p>
+<p><a href="https://ask.csdn.net/questions/7778792" target="_blank" rel="noopener">Html在Vscode报错</a>
+</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
