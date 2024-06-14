@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title class="jsx-contain">Down NetEase Music | Rhett Tien</title>
+    <link rel="icon" href="../images/icon.png" />
+    
+    <style>
+        html,
+        body {
+            color: rgb(7, 251, 12);
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            min-height: 100vh;
+            background-color: #3c077d;
+            font-size: 1.08em;
+            line-height: 1.3;
+        }
+
+        a {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .linkHome.jsx-back {
+            color: rgb(7, 251, 12);
+            font-size: .9rem
+        }
+
+        a.jsx-back {
+            text-decoration: none
+        }
+
+        a.jsx-back:visited {
+            color: inherit
+        }
+
+        .jsx-header {
+            margin: 10px 0 20px 0;
+        }
+
+        .jsx-footer {
+            margin: 20px 0 10px 0;
+        }
+
+        .aspect-ratio {
+            max-width: 800px;
+            margin: auto;
+            padding: 5px 20px 5px 20px;
+        }
+
+        .content-div {
+            position: relative;
+            padding: 5%;
+        }
+
+        .urlname,
+        .filename {
+            text-indent: 10px;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 470px;
+            height: 35px;
+            font-size: 16px;
+            color: rgb(7, 251, 12);
+            border: 2px solid rgb(7, 251, 12);
+            background-color: rgb(25, 26, 25);
+            margin-bottom: 10px;
+        }
+
+        .urlname:focus,
+        .filename:focus {
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 3px rgb(214, 214, 214);
+        }
+
+        .titles {
+            color: rgb(7, 251, 12);
+            font-weight: bold;
+            font-size: 26px;
+            font-family: FZYaoti;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            color: rgb(7, 251, 12);
+            border: 2px solid rgb(7, 251, 12);
+            font-size: 13px;
+            background-color: rgb(25, 26, 25);
+        }
+
+        .button:hover {
+            color: aqua;
+            border-radius: 5px;
+            border: 2px solid aqua;
+            box-shadow: 0px 0px 4px 2px rgb(214, 214, 214, 0.6);
+        }
+
+        .placeholder,
+        .placeholder2 {
+            font-size: 16px;
+            color: rgb(7, 251, 12);
+            width: 180px;
+            height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function downloadFile() {
+            var inputUrl = document.getElementById("inputUrl").value;
+            var filename = document.getElementById("filename").value;
+            var downloadUrl = processUrl(inputUrl);
+            if (downloadUrl) {
+                var downloadLink = document.createElement("a");
+                downloadLink.href = downloadUrl;
+                downloadLink.download = filename + ".mp3";
+                downloadLink.style.display = "none";
+
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+            } else {
+                alert("unknow URL");
+            }
+        }
+        function processUrl(str) {
+
+            var result = "";
+            const regex = /\d{4,}/;
+
+            var extractedStr = str.match(regex);
+            if (extractedStr == "" || extractedStr == null || extractedStr == undefined) {
+                console.log("")
+                return "";
+            }
+            var result = "https://music.163.com/song/media/outer/url?id=" + extractedStr + ".mp3";
+            console.log(result)
+            return result;
+        }
+    </script>
+
+    <div class="aspect-ratio">
+        <div class="jsx-header">
+            <a href="../index.html" class="jsx-back linkHome">
+                <i class="jsx-back">←&nbsp;RHETTTIEN.CN</i>
+            </a>
+        </div>
+
+        <div class="content-div">
+            <div class="titles">Download NetEase Music for non-members</div>
+            <input class="urlname" placeholder-class="placeholder" type="text" id="inputUrl"
+                placeholder="Paste the shared link">
+            <br>
+            <input class="filename" placeholder-class="placeholder2" type="text" id="filename"
+                placeholder="Saved file name"><br>
+            <button type="button" class="button" placeholder-class="placeholder3"
+                onclick="downloadFile()">Download</button>
+        </div>
+
+        <div class="jsx-footer">
+            <a href="../index.html" class="jsx-back linkHome">
+                <i class="jsx-back">←&nbsp;RHETTTIEN.CN</i>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

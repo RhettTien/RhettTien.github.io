@@ -1,0 +1,112 @@
+{
+    "comment": "注释：对象名为日期简写，对象属性按顺序分别是‘信息’，‘链接’，‘文字’，‘图片列表’",
+    "00":
+    {
+        "info": "默认",
+        "url": "https://www.bilibili.com/opus/935837897422012439",
+        "comment": "",
+        "images": ["wp-content/themes/myBlogwp-content/themes/myBlog/assets/images/home/c20240526.jpg"],
+        "css": ""
+    },
+    "47":
+    {
+        "info": "Rwandan Genocide",
+        "url": "https://zhuanlan.zhihu.com/p/142368798",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/home/Rwandan_Genocide.jpg"],
+        "css": ""
+    },
+    "48":
+    {
+        "info": "棋手战鹰",
+        "url": "https://live.bilibili.com/23141761",
+        "comment": "",
+        "images": [
+            "wp-content/themes/myBlog/assets/images/ying/z_01.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_02.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_03.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_04.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_05.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_06.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_07.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_08.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_09.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_10.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_11.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_12.png",
+            "wp-content/themes/myBlog/assets/images/ying/z_13.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_14.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_15.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_16.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_17.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_18.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_19.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_20.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_21.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_22.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_23.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_24.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_25.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_26.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_27.jpg",
+            "wp-content/themes/myBlog/assets/images/ying/z_28.jpg"
+        ],
+        "css": "wp-content/themes/myBlog/assets/js/sakura.js"
+    },
+    "99":
+    {
+        "info": "Japanese surrender in Nanjing",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/home/Official_Japanese_surrender_in_Nanjing_(1945).jpg"],
+        "css": ""
+    },
+    "101":
+    {
+        "info": "Mao Proclaiming New China",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/home/Mao_Proclaiming_New_China_(1949).jpg"],
+        "css": ""
+    },
+    "1031":
+    {
+        "info": "Halloween",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/festival/Halloween.jpg"],
+        "css": "wp-content/themes/myBlog/assets/css/pumpkin.css"
+    },
+    "1222":
+    {
+        "info": "告别朱令",
+        "url": "",
+        "comment": "朱颜逢劫，令人扼腕，当年谜案留追忆才女香消，举世悲叹，此生命运意难平",
+        "images": ["/wp-content/themes/myBlogwp-content/themes/myBlog/assets/images/home/2023-12-22.jpg"],
+        "css": ""
+    },
+    "1225":
+    {
+        "info": "Christmas",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/festival/Christmas.gif"],
+        "css": ""
+    },
+    "1230":
+    {
+        "info": "Chinese New Year's Eve",
+        "url": "",
+        "comment": "",
+        "images": ["wp-content/themes/myBlog/assets/images/festival/new-year-eva.jpg"],
+        "css": ""
+    },
+    "11":
+    {
+        "info": "New Year",
+        "url": "",
+        "comment": "",
+        "images": [],
+        "css": "wp-content/themes/myBlog/assets/js/china-lantern.min.js"
+    }
+}

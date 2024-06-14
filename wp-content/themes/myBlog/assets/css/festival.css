@@ -1,0 +1,31 @@
+#myImage {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.messages {
+    z-index: 30;
+    position: relative;
+    font-family: Verdana;
+    left: 50px;
+    top: 200px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 200px;
+    transform: rotate(20deg);
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-text-stroke: 1px rgb(255, 44, 234);
+}
+
+.img-box img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    /* 过渡效果 */
+}

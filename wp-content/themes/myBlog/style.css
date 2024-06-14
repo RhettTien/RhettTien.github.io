@@ -1,0 +1,156 @@
+/*
+Theme Name: myBlog
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: myBlog themes.
+Version: 0.1
+Tested up to: 6.5
+Requires at least: 4.4
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column
+*/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF8E7;
+    font-family: 'SimSun', SimSun;
+    /* line-height: 1.2; */
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(174, 115, 229);
+}
+
+.container {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftTop {
+    /* -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+    -ms-flex: 0 0 75%; */
+    padding: 1.5rem;
+    height: 100%;
+    max-width: 75%;
+    /* flex: 75%; */
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.home-img {
+    max-height: 1200px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.rightTop {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    padding: 1.5rem;
+    padding-left: 0;
+    height: 100%;
+    flex: 25%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#me .heading {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.section {
+    margin-top: 1.5rem;
+    line-height: 1.2;
+}
+
+/* .sl-item {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px;
+} */
+
+.quotes {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.img-box {
+    display: none;
+}
+
+/* cover screen image*/
+.img-box img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+#myImage {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.isnew {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-right: .25rem;
+    background-color: rgb(254 240 138);
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+/* auto zoo */
+@media only screen and (max-width: 800px) {
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-img {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .leftTop {
+        max-width: 100%;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .rightTop {
+        padding: 0px 16px 16px 16px;
+    }
+}

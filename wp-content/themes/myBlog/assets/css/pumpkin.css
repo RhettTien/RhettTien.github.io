@@ -1,0 +1,241 @@
+.pumpkin {
+    margin-top: 10px;
+    position: relative;
+}
+
+.pumpkin:before {
+    content: "";
+    position: absolute;
+    background-color: #03071e;
+    width: 160px;
+    height: 80px;
+    border-radius: 50%;
+    top: 40px;
+    left: -40px;
+}
+
+.front {
+    position: relative;
+    width: 80px;
+    height: 110px;
+    background-color: #ffba08;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 4;
+}
+
+.front:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    left: 65px;
+    top: -5px;
+    transform: rotate(-45deg);
+}
+
+.front:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    left: 80px;
+    top: -22px;
+    transform: rotate(-65deg);
+}
+
+.middle {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+.middle:before,
+.middle:after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    background-color: #faa307;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.middle:before {
+    left: -35px;
+    top: -10px;
+    transform: rotate(10deg);
+}
+
+.middle:after {
+    left: 35px;
+    top: -10px;
+    transform: rotate(-10deg);
+}
+
+.back {
+    position: absolute;
+    background-color: #faa307;
+    width: 80px;
+    height: 110px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: -30px;
+}
+
+.back:before,
+.back:after {
+    content: "";
+    position: absolute;
+    background-color: #f48c06;
+    width: 80px;
+    height: 110px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.back:before {
+    left: -45px;
+    top: 0;
+    transform: rotate(20deg);
+}
+
+.back:after {
+    left: 45px;
+    top: 0;
+    transform: rotate(-20deg);
+}
+
+.stalk {
+    position: absolute;
+    z-index: 2;
+    background-color: #55a630;
+    width: 40px;
+    height: 20px;
+    border-radius: 30px 30px 0 0;
+    top: -15px;
+    left: 5px;
+    box-shadow: 30px 0 #55a630;
+}
+
+.stalk:before {
+    content: "";
+    position: absolute;
+    border-left: 8px solid #55a630;
+    border-top: 14px solid #55a630;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    top: -35px;
+    left: 30px;
+    transform: rotate(-30deg);
+}
+
+.stalk:after {
+    content: "";
+    position: absolute;
+    background-color: #80b918;
+    width: 8px;
+    height: 12px;
+    border-radius: 50%;
+    top: -34px;
+    left: 68px;
+}
+
+.eyes {
+    position: absolute;
+    z-index: 4;
+    top: 105px;
+}
+
+.eyes:before,
+.eyes:after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: #03071e;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
+}
+
+.eyes:before {
+    top: -80px;
+    left: -5px;
+    transform: rotate(20deg);
+}
+
+.eyes:after {
+    top: -80px;
+    left: 50px;
+    transform: rotate(-20deg);
+}
+
+.smile {
+    position: absolute;
+    z-index: 5;
+    top: 105px;
+}
+
+.smile:before,
+.smile:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.smile:before {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 35px solid #03071e;
+    top: -50px;
+    transform: rotate(-45deg);
+}
+
+.smile:after {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #03071e;
+    top: -27px;
+    left: 22px;
+}
+
+.smile-middle {
+    position: absolute;
+}
+
+.smile-middle:before,
+.smile-middle:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.smile-middle:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #03071e;
+    top: -40px;
+    left: 10px;
+}
+
+.smile-middle:after {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 35px solid #03071e;
+    left: 55px;
+    top: -50px;
+    transform: rotate(45deg);
+}
+
+.smile-end {
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #03071e;
+    top: -40px;
+    left: 30px;
+}

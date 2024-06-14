@@ -1,0 +1,117 @@
+/* home image mobile */
+@media only screen and (max-width: 800px) {
+    .msg {
+        z-index: 30;
+        position: absolute;
+        font-family: Verdana;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+
+        left: 78%;
+        top: 14%;
+        height: 350px;
+        writing-mode: vertical-rl;
+
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+
+        -webkit-user-select: none;
+        user-select: none;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+        Pointer-events: none;
+    }
+
+    .smsg {
+        z-index: 30;
+        position: absolute;
+        font-family: 'Pacifico', 'Comic Sans MS', 'Courier New', 'Chalkduster', Courier, monospace;
+        font-size: 22px;
+        color: rgb(249, 64, 175);
+
+        left: 16px;
+        top: 2px;
+        width: 21.6px;
+
+        transition: opacity 1s ease-in-out;
+        /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6), 0 0 1em rgba(171, 60, 236, 0.7), 0 0 0.2em rgb(255, 97, 202); */
+        text-shadow: 3px 3px #965ae573, 0 0 1em #ff4da996, 0 0 0.2em #ff4da98b;
+        transform: rotate(6deg);
+
+        -webkit-user-select: none;
+        user-select: none;
+        Pointer-events: none;
+    }
+}
+
+/* home image pc */
+@media only screen and (min-width: 800px) {
+    .msg {
+        z-index: 30;
+        position: absolute;
+        font-family: Verdana;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        writing-mode: vertical-rl;
+
+        /* left: 40%; */
+        top: 16%;
+        padding-left: 42%;
+        /* left: 660px;
+        top: 500px; */
+        height: 530px;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+
+        -webkit-user-select: none;
+        user-select: none;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+        Pointer-events: none;
+    }
+
+    .smsg {
+        z-index: 30;
+        position: absolute;
+        font-family: 'Pacifico', 'Comic Sans MS', 'Courier New', 'Chalkduster', Courier, monospace;
+        font-size: 60px;
+        color: rgba(249, 64, 175, 0.9);
+
+        left: 360px;
+        top: 640px;
+        width: 66px;
+
+        transition: opacity 1s ease-in-out;
+        /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6), 0 0 1em rgba(171, 60, 236, 0.7), 0 0 0.2em rgb(255, 97, 202); */
+        text-shadow: 7px 7px #965ae573, 0 0 1em #ff4da996, 0 0 0.2em #ff4da98b;
+        transform: rotate(-16deg);
+
+        -webkit-user-select: none;
+        user-select: none;
+        Pointer-events: none;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent
+    }
+}
+
+.smsg span {
+    border-right: 3px solid;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation:
+        typing 3s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
